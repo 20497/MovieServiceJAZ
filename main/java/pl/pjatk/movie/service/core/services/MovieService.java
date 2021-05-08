@@ -2,8 +2,6 @@ package pl.pjatk.movie.service.core.services;
 
 import org.springframework.stereotype.Service;
 import pl.pjatk.movie.service.core.models.MovieModel;
-
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
