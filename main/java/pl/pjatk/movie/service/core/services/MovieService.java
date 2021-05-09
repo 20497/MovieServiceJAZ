@@ -9,9 +9,9 @@ public class MovieService {
 
     public static List getAllMovies() {
         return List.of(
-                new MovieModel(1, "Dracula", "Horror"),
-                new MovieModel(2, "Titanic", "Tragedy"),
-                new MovieModel(3, "Harry Potter", "Fantasy")
+                new MovieModel(1L, "Dracula", "Horror"),
+                new MovieModel(2L, "Titanic", "Tragedy"),
+                new MovieModel(3L, "Harry Potter", "Fantasy")
         );
     }
 

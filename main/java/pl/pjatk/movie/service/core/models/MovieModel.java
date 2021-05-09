@@ -1,21 +1,21 @@
 package pl.pjatk.movie.service.core.models;
 
 public class MovieModel {
-    private Integer id;
+    private Long id;
     private String name;
     private String category;
 
-    public MovieModel(Integer id, String name, String category) {
+    public MovieModel(Long id, String name, String category) {
         this.id = id;
         this.name = name;
         this.category = category;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
